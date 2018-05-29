@@ -1,0 +1,11 @@
+# can type in command in terminal "rake console", let's check ready to program
+
+require_relative './config/environment'
+
+def reload?
+    load_all './lib'
+end
+
+task :console do
+  Pry.start
+end

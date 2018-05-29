@@ -6,5 +6,9 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem 'nokogiri'
-gem 'require all'
+gem 'require_all'
 gem 'sqlite3'
+gem 'pry'
+gem 'rake'
+
+# type bundle in terminal
