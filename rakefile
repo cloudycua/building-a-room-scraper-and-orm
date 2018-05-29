@@ -9,3 +9,8 @@ end
 task :console do
   Pry.start
 end
+
+task :scrape_rooms do
+  # instantiate a scraper, and then have it find new rooms
+  RoomScraper.new().update_rooms
+end
